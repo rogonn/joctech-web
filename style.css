@@ -301,6 +301,7 @@ body {
     background-size: cover;
 }
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 05.HOME DESIGN
@@ -320,6 +321,11 @@ body {
 }
 .hero-bg-img {
     background-image: url("images/bg/architectural-design-australia.jpg");
+    background-image: url("images/bg/architecture-australia.jpg");
+    background-image: url("images/bg/samuel-wong.jpg");
+    background-image: url("images/bg/stanley-dai.jpg");
+    background-image: url("images/bg/kobu-agency.jpg");
+    background-image: url("images/bg/jeremy-galliani.jpg");
     background-size: cover;
     background-position: middle center;
 }
@@ -329,6 +335,13 @@ body {
     background: linear-gradient(to right, #fd746c, #ff9068); 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fd746c', endColorstr='#ff9068', GradientType=1);
 }
+
+@media screen and (max-width: 480px){
+  .hero-bg {
+    height: 590px !important;
+  }
+}
+
 .hero-text h2 {
     color: #fff;
     font-size: 66px;
@@ -352,7 +365,7 @@ body {
 }
 @media only screen and (max-width:480px) {
     .hero-text h2 {
-        padding-top: 0px;
+        padding-top: 30px;
         font-size: 30px;
         line-height: 40px;
     }
@@ -1126,10 +1139,10 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fd746c', endColorstr='#ff9068', GradientType=1);
 }
 .newsletter-bg-img {
-    background-image: url("images/bg/australia-curve-desert.jpg");
+    background-image: url("images/bg/architectural-design-sydney.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    opacity: 0.7;
+    opacity: 0.5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 }
 
@@ -1169,10 +1182,12 @@ body {
 */
 
 
-.footer-area{background: #2d333b; border-top: 2px solid #fd746c;}
+.footer-area{
+    background: #2d333b; 
+    border-top: 2px solid #fd746c;
+}
 .footer-area .form-control {
     background-color: transparent;
-    border: 1px solid #fd746c;
     box-shadow: none;
     color: #fd746c;
     }
@@ -1485,4 +1500,30 @@ ul.gallery-items img { display: block; }
     font-weight: 300;
 }
 
+@media screen and (max-width: 480px){
+  .connect {
+    text-align: center;
+  }
+
+  .connect-btn {
+    margin: 0 auto !important;
+    text-align: center;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .navbar-toggle {
+    color: transparent;
+  }
+}
+
+.mainmenu-area {
+  background: none !important;
+}
+
+.subscrie-form {
+  height: 150px;
+}
    

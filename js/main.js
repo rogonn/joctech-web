@@ -248,9 +248,9 @@ jQuery(document).on('ready', function ($) {
     =========================================================================*/
     
         $(".google_map").gMap({
-            address: 'Bogra, Bangladesh',   
+            address: 'Perth, Australia',   
             markers: [
-                    {'address' : 'Bogra, Bangladesh'}          // Street
+                    {'address' : 'Perth, Australia'}          // Street
                 ],
             zoom: 14,                                      // 0 - 21    
             scrollwheel: false,                            // Boolean: true / false
