@@ -561,7 +561,8 @@ body {
 }
 .single-feature .feature-content p{}
 .single-feature .feature-icon .icon-area {
-    border: 1px solid;
+    border: 1px solid #ccc;
+    border-radius: 0.4em;
     color: #fd746c;
     font-size: 20px;
     height: 50px;
