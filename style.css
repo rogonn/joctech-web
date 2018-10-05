@@ -295,7 +295,7 @@ body {
     bottom: 0;
     height: 100%;
     z-index: 0;
-    opacity: 0.15;
+    opacity: 0.7;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -319,9 +319,9 @@ body {
     z-index: 5;
 }
 .hero-bg-img {
-    background-image: url("images/bg/home-bg-2.jpg");
+    background-image: url("images/bg/architectural-design-australia.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: middle center;
 }
 .hero-bg {
     background: #fd746c; 
@@ -332,7 +332,7 @@ body {
 .hero-text h2 {
     color: #fff;
     font-size: 66px;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 0;
     line-height: 64px;
     padding-top: 170px;
@@ -429,7 +429,7 @@ body {
 
 
 
-.section-heading{background: #fd736c; color: #fff;}
+.section-heading{background: #ca2c33; color: #fff;}
 .section-heading h1 {
     color: #fff;
     font-size: 33px;
@@ -1126,10 +1126,10 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fd746c', endColorstr='#ff9068', GradientType=1);
 }
 .newsletter-bg-img {
-    background-image: url("images/bg/download-bg.jpg");
+    background-image: url("images/bg/australia-curve-desert.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    opacity: 0.15;
+    opacity: 0.7;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 }
 
@@ -1169,7 +1169,7 @@ body {
 */
 
 
-.footer-area{background: #414a55; border-top: 2px solid #fd746c;}
+.footer-area{background: #2d333b; border-top: 2px solid #fd746c;}
 .footer-area .form-control {
     background-color: transparent;
     border: 1px solid #fd746c;
