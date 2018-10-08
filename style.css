@@ -10,7 +10,7 @@
 /*=============================================================
 CSS INDEX
 ==============================================================
-    01. GENERAL STYLE 
+    01. GENERAL STYLE
     02. PRELOADER
     03. NAVIGATION
     04. OVERLAY & IMAGE
@@ -185,7 +185,7 @@ body {
 }
 .affix-top #mainmenu li.active a,
 .affix-top #mainmenu li a:hover{
-    background: transparent; 
+    background: transparent;
     color: #ffff00;
 }
 .affix #mainmenu li.active a {
@@ -330,9 +330,9 @@ body {
     background-position: middle center;
 }
 .hero-bg {
-    background: #fd746c; 
-    background: -webkit-linear-gradient(to right, #fd746c, #ff9068); 
-    background: linear-gradient(to right, #fd746c, #ff9068); 
+    background: #fd746c;
+    background: -webkit-linear-gradient(to right, #fd746c, #ff9068);
+    background: linear-gradient(to right, #fd746c, #ff9068);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fd746c', endColorstr='#ff9068', GradientType=1);
 }
 
@@ -353,8 +353,9 @@ body {
 }
 .hero-text p {
     font-weight: 300;
-    font-size: 24px;
+    font-size: auto;
     color: #fff;
+    text-transform: capitalize;
 }
 @media only screen and (max-width:768px) {
     .hero-text h2 {
@@ -385,7 +386,7 @@ body {
 .slider_btn a {
     background: transparent none repeat scroll 0 0;
     border: 1px solid #fff;
-    
+
     color: #fff;
     display: inline-block;
     padding: 10px 30px;
@@ -585,7 +586,7 @@ body {
 .feature-area .text-left .feature-icon{
     border-radius: 100px 0px 0px 100px;
 -webkit-border-radius: 100px 0px 0px 100px;
--moz-border-radius: 100px 0px 0px 100px; 
+-moz-border-radius: 100px 0px 0px 100px;
     padding-left: 20px;
 
     border: 1px solid #fd746c;
@@ -595,7 +596,7 @@ body {
 .feature-area .text-right .feature-icon{
     border-radius: 0px 100px 100px 0px;
 -webkit-border-radius: 0px 100px 100px 0px;
--moz-border-radius: 0px 100px 100px 0px; 
+-moz-border-radius: 0px 100px 100px 0px;
     padding-right: 20px;
     border: 1px solid #fd746c;
     border-right: 0px;
@@ -619,7 +620,7 @@ body {
     left: 5px;
     height: auto;
     border: 0px solid;
-    
+
 }
 .feature-area .single-feature .feature-icon .icon-area span {font-size: 35px;color: #fff;}
 */
@@ -632,9 +633,9 @@ body {
 
 .st-left .line{display: inline-block !important;}
 .video-bg {
-    background: #fd746c; 
-    background: -webkit-linear-gradient(to right, #fd746c, #ff9068); 
-    background: linear-gradient(to right, #fd746c, #ff9068); 
+    background: #fd746c;
+    background: -webkit-linear-gradient(to right, #fd746c, #ff9068);
+    background: linear-gradient(to right, #fd746c, #ff9068);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fd746c', endColorstr='#ff9068', GradientType=1);
     position: relative;
 }
@@ -791,9 +792,9 @@ body {
 .team-area .section-title .line { border-bottom: 3px solid #ff9068 ;}
 
 .team-bg {
-    background: #eee; 
-    background: -webkit-linear-gradient(to right, #eee, #ccc); 
-    background: linear-gradient(to right, #eee, #ccc); 
+    background: #eee;
+    background: -webkit-linear-gradient(to right, #eee, #ccc);
+    background: linear-gradient(to right, #eee, #ccc);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#eee', endColorstr='#ccc', GradientType=1);
     position: relative;
 }
@@ -807,8 +808,8 @@ body {
 }
 
 
-.team-area .single-team {  
-	border: 3px solid #fd746c; 
+.team-area .single-team {
+	border: 3px solid #fd746c;
     overflow: hidden;
     position: relative;
 }
@@ -891,9 +892,9 @@ body {
 .download-area .section-title h3 {color: #fff;}
 .download-area .section-title .line { border-bottom: 3px solid #fff;}
 .download-bg {
-    background: #fd746c; 
-    background: -webkit-linear-gradient(to right, #fd746c, #ff9068); 
-    background: linear-gradient(to right, #fd746c, #ff9068); 
+    background: #fd746c;
+    background: -webkit-linear-gradient(to right, #fd746c, #ff9068);
+    background: linear-gradient(to right, #fd746c, #ff9068);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fd746c', endColorstr='#ff9068', GradientType=1);
 }
 .download-bg-img {
@@ -1134,9 +1135,9 @@ body {
 .newslatter-area .line{border-color: #fff;}
 .newslatter-area .section-title2 h3 {letter-spacing: 0;}
 .newsletter-bg {
-    background: #fd746c; 
-    background: -webkit-linear-gradient(to right, #fd746c, #ff9068); 
-    background: linear-gradient(to right, #fd746c, #ff9068); 
+    background: #fd746c;
+    background: -webkit-linear-gradient(to right, #fd746c, #ff9068);
+    background: linear-gradient(to right, #fd746c, #ff9068);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fd746c', endColorstr='#ff9068', GradientType=1);
 }
 .newsletter-bg-img {
@@ -1184,7 +1185,7 @@ body {
 
 
 .footer-area{
-    background: #2d333b; 
+    background: #2d333b;
     border-top: 2px solid #fd746c;
 }
 .footer-area .form-control {
@@ -1350,7 +1351,7 @@ body {
 /*  Gallery Items
 /* -------------------------------------------------- */
 
-ul.gallery-items { 
+ul.gallery-items {
     font-size: 0;
     -webkit-backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
@@ -1358,7 +1359,7 @@ ul.gallery-items {
     -moz-user-select: none;
     user-select: none;
 }
-    
+
 ul.gallery-items li {
     position: relative;
     display: inline-block;
@@ -1369,10 +1370,10 @@ ul.gallery-items li {
     font-size: 0;
     text-align: left;
 }
-        
+
 ul.gallery-items .mix { display: none; }
 ul.gallery-items img { display: block; }
-    
+
 .work-item {
     position: relative;
     overflow: hidden;
@@ -1418,7 +1419,7 @@ ul.gallery-items img { display: block; }
     height: 100%;
     vertical-align: middle;
     text-align: center;
-}   
+}
 
 .inner-extra {
     display: table-cell;
@@ -1438,7 +1439,7 @@ ul.gallery-items img { display: block; }
     color: #fff;
 
     -webkit-border-radius: 50%;
-    border-radius: 50%; 
+    border-radius: 50%;
     -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1);
     -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
     -moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
@@ -1490,7 +1491,7 @@ ul.gallery-items img { display: block; }
 .plus-icon .curtain:after  { content: '\e9a1'; font-size: 28px; }
 .link-icon .curtain:after  { content: '\e84f'; }
 
-.extra-title  { 
+.extra-title  {
     margin-bottom: 6px;
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
@@ -1527,4 +1528,3 @@ ul.gallery-items img { display: block; }
 .subscrie-form {
   height: 150px;
 }
-   
