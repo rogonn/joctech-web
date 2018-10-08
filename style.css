@@ -353,9 +353,8 @@ body {
 }
 .hero-text p {
     font-weight: 300;
-    font-size: auto;
+    font-size: 24px;
     color: #fff;
-    text-transform: capitalize;
 }
 @media only screen and (max-width:768px) {
     .hero-text h2 {
