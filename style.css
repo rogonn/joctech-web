@@ -51,7 +51,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #fd746c;
+    color: transparent;
 }
 img {
     max-width: 100%;
@@ -164,6 +164,7 @@ body {
 .mainmenu-area .navbar-brand .logo-text {
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    color: black;
 }
 
 .logo {padding: 5px;}
@@ -348,7 +349,7 @@ body {
     font-weight: 300;
     letter-spacing: 0;
     line-height: 64px;
-    padding-top: 170px;
+    padding-top: 85px;
     text-transform: capitalize;
 }
 .hero-text p {
@@ -365,9 +366,12 @@ body {
 }
 @media only screen and (max-width:480px) {
     .hero-text h2 {
-        padding-top: 30px;
+        padding-top: 0px;
         font-size: 30px;
         line-height: 40px;
+    }
+    .hero-text p{
+      font-size: 16px;
     }
 }
 @media only screen and (max-width:360px) {
@@ -1514,9 +1518,12 @@ ul.gallery-items img { display: block; }
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .navbar-toggle {
     color: transparent;
+  }
+  #tablist{
+    background-color: #CA2C33;
   }
 }
 
