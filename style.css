@@ -1232,6 +1232,14 @@ body {
     color: #00ff00;
     border-radius: 0px;
 }
+
+#web-contact{
+  display:;
+}
+
+#mobile-wa{
+  display:none;
+}
 /*
 * ----------------------------------------------------------------------------------------
 * 19.404 PAGE
@@ -1524,6 +1532,13 @@ ul.gallery-items img { display: block; }
   }
   #tablist{
     background-color: #CA2C33;
+  }
+
+  #web-contact{
+    display:none;
+  }
+  #mobile-wa{
+    display:inline;
   }
 }
 
