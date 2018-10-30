@@ -91,7 +91,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff9068), col
 background: -webkit-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
 background: -o-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
 background: -ms-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
-background: linear-gradient(to bottom, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+background: linear-gradient(to bottom, #ff906800 0%, #ff906800 50%, #fd736c00 51%, #fd736c00 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9068', endColorstr='#fd736c', GradientType=0 );
     }
     .mainmenu-area .navbar-toggle {

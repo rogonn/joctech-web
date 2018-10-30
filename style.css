@@ -160,9 +160,7 @@ body {
 	box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
 	padding: 0;
 }
-.navbar-header{
-  min-height: 0px;
-}
+
 .navbar-brand .logo-text {line-height: 0.6;}
 .mainmenu-area .navbar-brand .logo-text {
     -webkit-transition: 0.3s;
@@ -1546,7 +1544,7 @@ ul.gallery-items img { display: block; }
 }
 
 .mainmenu-area {
-  background: none !important;
+  background: transparent;
 }
 
 .subscrie-form {
